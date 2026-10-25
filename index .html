@@ -1,0 +1,75 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Best Friend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+            text-align: center;
+            padding: 50px 20px;
+            color: #333;
+        }
+
+        .card {scroll-snap-type: ;
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px #0002;
+        }
+
+        h1 {
+            color: #d63384;
+        }
+
+        button {
+            background: #d63384;              
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #message {
+            color: #d63384;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>My Best Friend ❤️</h1>
+
+        <h2>A Friend Like No Other</h2>
+
+        <p>
+            A true best friend makes life brighter.
+            They listen, support us, and stay beside us
+            through happy and difficult times.
+        </p>
+
+        <p>
+            Friendship is built on trust, love, honesty,
+            and beautiful memories.
+        </p>
+
+        <button onclick="showMessage()">Click Me ❤️</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Thank you for being my amazing best friend! ❤️";
+        }
+    </script>
+</body>
+</html>s
